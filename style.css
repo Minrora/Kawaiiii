@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cute Font', cursive;
+    background: linear-gradient(135deg, #ffe6f0, #ffd1dc);
+    color: #d63384;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+  .header {
+    padding: 50px 20px;
+  }
+  
+  button {
+    background-color: #ffb6c1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(255, 182, 193, 0.4);
+  }
+  
+  .cat {
+    font-size: 60px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .cat:hover {
+    transform: scale(1.2);
+  }
+  
+  .heart {
+    position: absolute;
+    font-size: 24px;
+    animation: fall 2s linear forwards;
+  }
+  
+  @keyframes fall {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(100vh); opacity: 0; }
+  }
+  
+  .kawaii-mode {
+    background: linear-gradient(135deg, #ffe6f0, #ffccf9);
+    color: #ff69b4;
+  }
+  
